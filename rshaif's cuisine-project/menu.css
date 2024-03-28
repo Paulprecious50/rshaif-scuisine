@@ -1,0 +1,404 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F5FCF4;
+}
+header{
+    width: 100%;
+    margin-bottom: 70px;
+    /* border: 2px solid red; */
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-container{
+    margin: 0 auto;
+    font-family: Poppins;
+    width: 90%;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+}
+.image-nav{
+    width: 20%;
+    /* border: 2px solid black; */
+}
+.image-nav img{
+    margin-top: 40px;
+    /* border: 2px solid red; */
+}
+.text-navs{
+    /* border: 2px solid pink; */
+}
+.other-navs{
+    /* border: 2px solid orange; */
+    width: 100%;
+    gap: 25px;
+    align-items: center;
+    justify-content: end;
+    margin-top: 20px;
+    flex-wrap: nowrap;
+}
+    .other-navs a{
+    font-family: Poppins;
+    color: #3B413A;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    width: 60%;
+    margin: 0 auto;
+}
+ .nav-btn button{
+   background-color:  #26643B;
+  color:  #E8E8E8;
+  font-family: Poppins;
+  padding: 14px;
+  border-radius: 9px;
+  width: 150px;
+  font-family: Raleway;
+  font-weight: 900;
+  font-size: x-large;
+  border-style: none;
+  /* margin-top: 13px; */
+}
+
+
+
+/* mYsection styling */
+.mYsection{
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.heading, .our-specails b{
+    margin-bottom: 30px;
+    /* border: 2px solid red; */
+}
+.our-specails{
+    /* border: 2px solid black; */
+}
+
+ .top-dishes h1, .top-dishes_container h1{
+    width: 90%;
+    margin: 0 auto;
+    font-family: Poppins;
+ }
+ 
+ .Vegan-Salad{
+    /* border: 2px solid black;  */
+    border-radius: 15px;
+    border-style: none;
+    gap: 30px;
+    justify-content: space-between;
+    
+    margin-top: 20px;
+ }
+ .Vegan-Salad-cont{
+    /* border: 2px solid green; */
+    background-color: #D6E5D8;
+    height: 250px;
+    border-radius: 15px;
+    /* border-style: none; */
+    flex-wrap: nowrap;
+    gap: 5px;
+    width: 48%;
+ }
+ .food-image{
+    /* width: 200%;  */
+    margin-top: 10px;
+ }
+ .food-image img{
+    width: 140%;
+    /* border: 2px solid red; */
+    border-radius: 18px;
+    /* border-style: none;  */
+    padding: 5px;
+    height: 150px;
+ }
+ .vegan-content{
+    justify-content: center;
+    /* border: 2px solid black; */
+    /* padding-bottom: 2px; */
+    margin-left: 20%;
+    margin-top: 20px;
+ }
+ .vegan-content b{
+    font-size: larger;
+    /* border: 2px solid red; */
+    font-family: Ralewa;
+    /* width: 50%; */
+ }
+
+  /* top dishes styling */
+  .top-dishes{
+    /* border: 2px solid black; */
+    width: 100%;
+    margin-bottom: 90px;
+ }
+ .top-dishes h1, .top-dishes_container h1{
+    width: 90%;
+    margin: 0 auto;
+    font-family: Poppins;
+ }
+ 
+ .Vegan-Salad{
+    border: 2px solid black; 
+    border-radius: 15px;
+    /* border-style: none; */
+    width: 90%;
+    /* gap: 20px; */
+    margin: 0 auto;
+ }
+ .Vegan-Salad-cont{
+    border: 2px solid green;
+    background-color: #D6E5D8;
+    width: 33%;
+    border-radius: 15px;
+    border-style: none;
+    /* gap: 10px; */
+ }
+ .food-image{
+    width: 40%;
+    border: 2px solid red;
+
+ }
+ .food-image img{
+    width: 100%;
+    /* border: 2px solid red; */
+    border-radius: 18px;
+    border-style: none;
+    padding: 5px;
+    height: 150px;
+ }
+ .vegan-content{
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    padding-bottom: 28px;
+ }
+ .vegan-content b{
+    font-size: larger;
+    border: 2px solid red;
+    font-family: Ralewa;
+ }
+
+
+
+/* FOOTER STYLING */
+footer{
+    width: 100%;
+    /* border: 2px solid red; */
+    /* height: 100px; */
+    background-color: #D6E5D8;
+ }
+ .footer-general{
+    width: 90%;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    /* height: 100px; */
+    gap: 100px;
+    background-color: #D6E5D8;
+ }
+ .footer-general h1{
+    font-weight: 600;
+    font-size: large;
+    font-family: Poppins;
+ }
+ .footer-cuisine{
+    /* border: 2px solid blue; */
+    margin-top: 40px;
+    width: 25%;
+ }
+ .footer-others{
+    /* gap: 40px; */
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    width: 60%;
+    margin-top: 20px;
+ }
+
+ .facebook img, .instagram img, .twitter img{
+    border: 4px solid #BEE1B8;
+    width: 60%;
+    border-radius: 10px;
+    background-color: #E8E8E8;
+    margin-bottom: 20px;
+ }
+ .footer-others a{
+    text-decoration: none;
+    color: #3F3C40;
+ }
+ .end-point{
+    width: 90%;
+    margin: 0 auto;
+ }
+ .end-point p{
+    font-family: ralewa;
+    font-size: large;
+    font-weight: 100;
+    color: #3F3C40;
+ }
+
+
+
+/* Desktop Devices Large, Xlarge, XXLarge */
+/* Large */
+@media(min-width:992px){
+    .Hamburger{
+        /* border: 2px solid red; */
+        display: none;
+    }
+    .Hamburger img{
+        margin-top: 40px;
+    }
+
+
+    .col-lg-1{
+        width: 8.33%;
+   }
+   .col-lg-2{
+    width: 16.66%;
+    }
+    .col-lg-3{
+        width: 25%;
+    }
+    .col-lg-4{
+        width: 33.33%;
+    }
+    .col-lg-5{
+        width: 41.66%;
+    }
+    .col-lg-6{
+        width: 50%;
+    }
+    .col-lg-7{
+        width: 58.33%;
+    }
+    .col-lg-8{
+        width: 66.66%;
+    }
+    .col-lg-9{
+        width: 75%;
+    }
+    .col-lg-10{
+        width: 83.33%;
+    }
+    .col-lg-11{
+        width: 91.66%;
+    }
+    .col-lg-12{
+        width: 100%;
+    }
+}
+/* Tablet Devices - Small and Medium */
+/* Medium Devices */
+@media(min-width:768px) and (max-width:991px){
+    .Hamburger{
+        /* border: 2px solid red; */
+        display: none;
+    }
+    .Hamburger img{
+        margin-top: 40px;
+    }
+
+
+
+    .col-md-1{
+        width: 8.33%;
+   }
+   .col-md-2{
+    width: 16.66%;
+    }
+    .col-md-3{
+        width: 25%;
+    }
+    .col-md-4{
+        width: 33.33%;
+    }
+    .col-md-5{
+        width: 41.66%;
+    }
+    .col-md-6{
+        width: 50%;
+    }
+    .col-md-7{
+        width: 58.33%;
+    }
+    .col-md-8{
+        width: 66.66%;
+    }
+    .col-md-9{
+        width: 75%;
+    }
+    .col-md-10{
+        width: 83.33%;
+    }
+    .col-md-11{
+        width: 91.66%;
+    }
+    .col-md-12{
+        width: 100%;
+    }
+}
+/* Small Devices */
+@media(max-width:767px){
+
+    .Hamburger{
+        /* border: 2px solid red; */
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-top: 45px;
+    }
+    .other-navs{
+        display: none;
+        margin-top: 50p;
+    }
+    .facebook img, .instagram img, .twitter img{
+        border: 4px solid #BEE1B8;
+        width: 100%;
+     }
+
+
+
+    .col-sm-1{
+        width: 8.33%;
+   }
+   .col-sm-2{
+    width: 16.66%;
+    }
+    .col-sm-3{
+        width: 25%;
+    }
+    .col-sm-4{
+        width: 33.33%;
+    }
+    .col-sm-5{
+        width: 41.66%;
+    }
+    .col-sm-6{
+        width: 50%;
+    }
+    .col-sm-7{
+        width: 58.33%;
+    }
+    .col-sm-8{
+        width: 66.66%;
+    }
+    .col-sm-9{
+        width: 75%;
+    }
+    .col-sm-10{
+        width: 83.33%;
+    }
+    .col-sm-11{
+        width: 91.66%;
+    }
+    .col-sm-12{
+        width: 100%;
+    }
+}

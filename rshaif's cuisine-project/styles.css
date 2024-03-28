@@ -1,0 +1,1069 @@
+*{
+    padding: 0;
+    margin: o;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F5FCF4;
+    /* border: 2px solid red; */
+    /* height: 500px; */
+}
+header{
+    width: 100%;
+    margin-bottom: 70px;
+    /* border: 2px solid red; */
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-container{
+    margin: 0 auto;
+    font-family: Poppins;
+    width: 90%;
+    height: 100px;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    /* flex-wrap: nowrap; */
+}
+.image-nav{
+    width: 20%;
+    /* border: 2px solid black; */
+}
+.image-nav img{
+    margin-top: 40px;
+}
+.text-navs{
+    /* border: 2px solid pink; */
+}
+.other-navs{
+    /* border: 2px solid orange; */
+    width: 100%;
+    gap: 25px;
+    align-items: center;
+    justify-content: end;
+    margin-top: 20px;
+    flex-wrap: nowrap;
+}
+    .other-navs a{
+    font-family: Poppins;
+    color: #3B413A;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    width: 60%;
+    margin: 0 auto;
+}
+ .nav-btn button{
+   background-color:  #26643B;
+  color:  #E8E8E8;
+  font-family: Poppins;
+  padding: 14px;
+  border-radius: 9px;
+  width: 150px;
+  font-family: Raleway;
+  font-weight: 900;
+  font-size: x-large;
+  border-style: none;
+  /* margin-top: 13px; */
+}
+.Hamburger{
+    /* border: 2px solid red; */
+    display: none;
+}
+.Hamburger img{
+    margin-top: 40px;
+}
+
+
+
+
+/* main styling */
+
+main {
+    width: 100%;
+    margin-bottom: 70px;
+    /* border: 2px solid red; */
+}
+.main-container{
+    margin: 0 auto;
+    width: 90%;
+    /* border: 2px solid black; */
+    font-family: Ralewa;
+    justify-content: space-between;
+}
+.flavor{
+    /* border: 2px solid red; */
+    justify-content: center;
+    width: 100%;
+    
+}
+.flavor-container{
+    /* border: 2px solid black; */
+}
+.heading{
+    /* border: 2px solid yellow; */
+    font-family: Poppins;
+    font-weight: 600;
+}
+.paragrapgh{
+    /* border: 2px solid yellow; */
+    font-family: Ralewa;
+    font-weight: 400;
+    color: #3B413A;
+    font-size: medium;
+    line-height: 25px;
+    /* width: 50%; */
+}
+.main-container_btns{
+    flex-wrap: nowrap;
+     gap: 50px;
+     /* border: 2px solid blue; */
+}
+.explore-btn{
+    gap: 25px;
+    flex-wrap: nowrap;
+    /* border: 2px solid red; */
+}
+.explore-btn button{
+    background-color:  #26643B;
+    color:  #E8E8CC;
+    font-family: Poppins;
+    padding: 10px;
+    border-radius: 9px;
+    width: 150px;
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: medium;
+    border-style: none;
+    /* border: 2px solid red; */
+}
+/* .flavor-info{
+    border: 2px solid yellow;
+    
+} */
+.flavor-link{
+    margin-top: 10px;
+    width: 45%;
+    /* border: 2px solid red; */
+}
+.explore-btn a{
+    text-decoration: none;
+    color: #4C643B;
+    font-weight: 500;
+    font-size: large;
+    margin-top: 11px;
+    /* border: 2px solid red; */
+}
+.hero_image{
+    /* border: 2px solid green; */
+    justify-content: center;
+}
+.hero_image img{
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+
+/* section stylying */
+section{
+    width: 100%;
+    /* border: 2px solid red; */
+    margin-top: 40px;
+    margin-bottom: 240px;
+}
+.section-container{
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: 0 auto;
+}
+
+.time, .address, .call-now{
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    background-color: #D6E5D8;
+    border-style: none;
+    width: 31%;
+}
+.time-content, .add-content, .call-content{
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+    /* border: 2px solid red; */
+}
+.section-content{
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* border: 2px solid green; */
+}
+.font{
+    font-size: larger;
+    justify-content: center;
+    /* flex-wrap: nowrap; */
+}
+.add-p{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.add{
+    justify-content: center;
+    /* border: 2px solid red; */
+    font-weight: 200;
+   }
+
+
+
+
+   /* our special styling */
+ .our-section{
+     width: 100%;
+     /* border: 2px solid red; */
+     margin-bottom: 190px;
+ }
+ .our-section-container{
+    width: 90%;
+    /* border: 2px solid green; */
+    margin: 0 auto;
+    gap: 30px;
+ }
+ .our-section-content{
+    /* border: 2px solid yellow; */
+    flex-wrap: nowrap;
+    position: relative;
+    gap: 15px;
+ }
+ .special-img{
+    /* border: 2px solid green; */
+    justify-content: center;
+    align-items: center;
+ }
+ .special-img img{
+    width: 44%;
+    height: 200px;
+    /* border: 2px solid black; */
+    border-radius: 15px;
+    border-style: none;
+    position: absolute;
+ }
+ .bowl{
+    background-color: #D6E5D8;
+    /* border: 2px solid red; */
+    border-radius: 15px;
+    border-style: none;
+    height: 100%;
+  
+ }
+ .salad-bowl{
+    background-color: #D6E5D8;
+    /* border: 2px solid red; */
+    border-radius: 15px;
+    border-style: none;
+    height: 100%;
+ }
+ .bowl h2, .salad-bowl h2{
+    padding-top: 120px;
+    font-weight: 800;
+    font-family: Poppins;
+    font-size: x-large;
+    /* border: 2px solid blue; */
+    margin: 0 auto;
+
+ }
+ .bowl p, .salad-bowl p{
+    line-height: 20px;
+    font-family: Ralewa;
+ }
+ .bowl-container{
+    /* border: 2px solid black; */
+    margin: 0 auto;
+    width: 90%;
+
+ }
+ .food-1, .food-2{
+    /* border: 2px solid blue; */
+    width: 50%;
+ }
+ .specials{
+    /* border: 2px solid red; */
+    width: 30%;
+ }
+ .heading-style2{
+    font-size: xx-large;
+    font-family: Poppins;
+    font-weight: 200;
+ }
+ .specials{
+    font-family: ralewa;
+ }
+ .specials-btn button{
+    background-color:  #26643B;
+    color:  #E8E8CC;
+    font-family: Poppins;
+    padding: 15px;
+    border-radius: 9px;
+    width: 130px;
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: large;
+    border-style: none;
+ }
+
+
+
+ /* top dishes styling */
+ .top-dishes{
+    /* border: 2px solid black; */
+    width: 100%;
+    margin-bottom: 90px;
+ }
+ .top-dishes h1, .top-dishes_container h1{
+    width: 90%;
+    margin: 0 auto;
+    font-family: Poppins;
+ }
+ 
+ .Vegan-Salad{
+    /* border: 2px solid black;  */
+    border-radius: 15px;
+    border-style: none;
+    width: 90%;
+    gap: 20px;
+ }
+ .Vegan-Salad-cont{
+    /* border: 2px solid green; */
+    background-color: #D6E5D8;
+    width: 48%;
+    border-radius: 15px;
+    border-style: none;
+    gap: 10px;
+ }
+ .food-image{
+    width: 40%;
+
+ }
+ .food-image img{
+    width: 100%;
+    /* border: 2px solid red; */
+    border-radius: 18px;
+    border-style: none;
+    padding: 5px;
+    height: 150px;
+ }
+ .vegan-content{
+    flex-direction: column;
+    justify-content: center;
+    /* border: 2px solid black; */
+    padding-bottom: 28px;
+ }
+ .vegan-content b{
+    font-size: larger;
+    /* border: 2px solid red; */
+    font-family: Ralewa;
+ }
+
+
+
+/* demo dishes styling */
+
+ .demo-dish{
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-bottom: 100px;
+ }
+ .demo-general{
+    width: 90%;
+    margin: 0 auto;
+    /* border: 2px solid green; */
+ }
+ .demo-container{
+    width: 90%;
+    /* border: 2px solid red; */
+    background-color: #D6E5D8;
+ }
+ .demo-food-cont{
+    /* border: 2px solid green; */
+    flex-wrap: nowrap;
+    width: 65%;
+
+ }
+ .demo-food1, .demo-food2{
+    width: 80%;
+    padding: 5px;
+ }
+
+ .demo-food1 img, .demo-food2 img{
+    width: 95%;
+    /* border: 2px solid red; */
+    height: 250px;
+    border-radius: 15px;
+    border-style: none;
+ }
+ 
+ .demo-food3 img{
+    width: 95%;
+    /* border: 2px solid black; */
+    height: 250px;
+    border-radius: 15px;
+    border-style: none;
+ }
+ .demo-btn button{
+    background-color:  #26643B;
+    color:  #E8E8CC;
+    font-family: Poppins;
+    padding: 10px;
+    border-radius: 9px;
+    width: 150px;
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: medium;
+    border-style: none;
+    margin-bottom: 10px;
+ }
+
+
+
+ /* media styling */
+ .media{
+    width: 100%;
+    /* border: 2px solid red; */
+    margin-bottom: 80px;
+ }
+ .media-cont{
+    width: 90%;
+    height: 540px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    gap: 20px;
+    flex-wrap: nowrap;
+    position: sticky;
+ }
+ .background-img{
+    width: 55%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(./cuisine-assest/eventsMedia1.png);
+    /* background-image: url(./cuisine-assest/playIcon.svg); */
+    background-position: center;
+    position: relative;
+ }
+ .media2{
+    width: 35%;
+    background-image: url(./cuisine-assest/eventsMedia2.png);
+    height: 100%;  
+    background-position: center;
+ }
+
+
+
+/* event styling */
+
+ .events{
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    margin-bottom: 80px;
+ }
+ .general-event{
+    width: 90%;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+    gap: 30px;
+ }
+ .event-main{
+    width: 55%;
+    /* border: 2px solid yellow; */
+    gap: 15px;
+ }
+ .Corporate{
+    /* border: 2px solid yellow; */
+    /* width: 80%; */
+ }
+
+ .Corporate-cont{
+    /* border: 2px solid green; */
+    background-color: #D6E5D8;
+    border-radius: 15px;
+    border-style: none;
+    flex-wrap: nowrap;
+    height: 180px;
+    gap: 20px;
+ }
+ .Corporate-image{
+    border-radius: 20px;
+    border-radius: 20px;
+    border: 2px solid red;
+    border-style: none;
+    width: 40%;
+    padding: 5px;
+    height: 180px;
+ }
+ .Corporate-image img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+ }
+ .Corporate-info{
+    width: 50%;
+    /* border: 2px solid red; */
+    height: 100%;
+ }
+ .book-event{
+    width:40% ;
+    /* border: 2px solid red; */
+ }
+ .event-btn button{
+    background-color:  #26643B;
+    color:  #E8E8CC;
+    font-family: Poppins;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 9px;
+    width: 150px;
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: large;
+    border-style: none;
+ }
+
+/* WHY-US STYLING */
+
+
+ .why-us{
+    width: 100%;
+    margin-bottom: 80px;
+    /* border: 2px solid red; */
+ }
+ .our-food-general{
+    width: 80%;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+    gap: 60px;
+ }
+ .our-food_main{
+    /* border:2px solid red; */
+    width: 40%;
+ }
+ .our-food_main h3{
+    font-weight: 600;
+    font-family: Poppins;
+    color: #3B413A;
+    margin-bottom: 50PX;
+ }
+ .our-food_aside{
+    /* border:2px solid red; */
+    width: 50%;
+    gap: 20px;
+ }
+ .our-food{
+    /* border: 2px solid black; */
+    width: 40%;
+ }
+ .our-food_content{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D6E5D8;
+    border-radius: 15px;
+    border-style: none;
+    /* border: 2px solid yellow; */
+    padding: 15px;
+ }
+ .our-food_content p{
+    font-family: Ralewa;
+    font-weight: bold;
+    font-size: larger;
+    justify-content: center;
+    align-items:center ;
+ }
+
+
+
+/* CUSTOMERS-SAY STYLING */
+
+ .customers-say{
+    width: 100%;
+    /* border: 2px solid red; */
+    margin-bottom: 80px;
+ }
+ .customers-general{
+    width: 80%;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+    gap: 2%;
+ }
+ .customers-heading{
+     /* border: 2px solid red; */
+    justify-content: center;
+    font-family: Poppins;
+     font-weight: bolder;
+     font-size: xx-large;
+     font: bolder;
+     font-smooth:inherit ;
+     color: #3B413A;
+
+ }
+ .customers-cont{
+    /* border: 2px solid red; */
+    /* height: 100px; */
+ }
+ .cont-details1, .cont-details2{
+    /* border: 2px solid black; */
+    width: 49%;
+    margin-bottom: 10px;
+    height: 320px;
+    flex-wrap: nowrap;
+    background-color: #D6E5D8;
+    border-radius: 20px;
+    border-style: none;
+ }
+ .testimonial_img{
+    width: 30%;
+    padding: 10px;
+ }
+ .testimonial_img img{
+    width: 100%;
+    /* border: 2px solid red; */
+    height: 100%;
+    border-radius: 15px;
+    border-style:none ;
+ }
+ .cont-details1-others{
+     height: 100%;
+    width: 70%;
+    /* border: 2px solid black; */
+ }
+ .cont-details1 h3, .cont-details2 h3{
+  font-family: Poppins;
+ }
+ 
+
+ /* JOIN STYLING */
+ .join{
+    width: 100%;
+    /* border: 2px solid red; */
+    margin-bottom: 80px;
+ }
+ .join-general{
+    width: 90%;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+    background-color: #A2DE96;
+ }
+ .join-cont{
+    /* border: 2px solid red; */
+    justify-content:space-around;
+ }
+ .joint-main{
+    /* border: 2px solid red; */
+    width: 30%;
+ }
+ .join-aside{
+    /* border: 2px solid blue; */
+    margin-top: 40px;
+    width: 40%;
+ }
+ .placeholder button{
+    background-color: #266438;
+    width: 110px;
+    /* border: 2px solid black; */
+    height: 60px;
+    border-radius: 9px;
+    color: white;
+    border-style: none;
+    position: absolute;
+    margin-right: 60px;
+ }
+
+ /* FOOTER STYLING */
+ footer{
+    width: 100%;
+    /* border: 2px solid red; */
+    /* height: 100px; */
+    background-color: #D6E5D8;
+ }
+ .footer-general{
+    width: 90%;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    /* height: 100px; */
+    gap: 100px;
+    background-color: #D6E5D8;
+ }
+ .footer-general h1{
+    font-weight: 600;
+    font-size: large;
+    font-family: Poppins;
+ }
+ .footer-cuisine{
+    /* border: 2px solid blue; */
+    margin-top: 40px;
+    width: 25%;
+ }
+ .footer-others{
+    /* gap: 40px; */
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    width: 60%;
+    margin-top: 20px;
+ }
+
+ .facebook img, .instagram img, .twitter img{
+    border: 4px solid #BEE1B8;
+    width: 60%;
+    border-radius: 10px;
+    background-color: #E8E8E8;
+    margin-bottom: 20px;
+ }
+ .footer-others a{
+    text-decoration: none;
+    color: #3F3C40;
+ }
+ .end-point{
+    width: 90%;
+    margin: 0 auto;
+ }
+ .end-point p{
+    font-family: ralewa;
+    font-size: large;
+    font-weight: 100;
+    color: #3F3C40;
+ }
+
+
+/* large devices */
+@media(min-width:992px){
+   .flavor{
+    margin-top: 120px;
+   }
+   .vegan-content{
+    padding-bottom: 70px;
+   }
+   .demo-food3{
+    width: 80%;
+    padding: 5px;
+ }
+ .discount{
+    margin-top: 5px;
+    width: 30%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+ }
+ .playicon{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 150px; */
+    height: 100%;
+ }
+ .playicon img{
+    /* border: 2px solid green; */
+    width: 20%;
+ }
+ .placeholder input[type="email"]{
+    width: 300px;
+    padding: 20px;
+    font-size: large;
+    position: relative;
+    border-style: none;
+    border-radius: 15px ;
+}
+ 
+  
+   
+
+
+    .col-lg-1{
+        width: 8.33%;
+   }
+   .col-lg-2{
+    width: 16.66%;
+    }
+    .col-lg-3{
+        width: 25%;
+    }
+    .col-lg-4{
+        width: 33.33%;
+    }
+    .col-lg-5{
+        width: 41.66%;
+    }
+    .col-lg-6{
+        width: 50%;
+    }
+    .col-lg-7{
+        width: 58.33%;
+    }
+    .col-lg-8{
+        width: 66.66%;
+    }
+    .col-lg-9{
+        width: 75%;
+    }
+    .col-lg-10{
+        width: 83.33%;
+    }
+    .col-lg-11{
+        width: 91.66%;
+    }
+    .col-lg-12{
+        width: 100%;
+    }
+}
+/* Tablet Devices - Small and Medium */
+/* Medium Devices */
+@media(min-width:768px) and (max-width:991px){
+    .flavor{
+        margin-top: 90px;  
+    }
+    .flavor-container{
+         width: 100%;
+         margin-bottom: 50px;
+    }
+
+    .flavor-img{
+        margin-top: 50px;
+    }
+    .hero_image img{
+        width: 100%;
+        height: 400px;
+    }
+    .salad-bowl{
+        /* height: 460px; */
+        padding-bottom: 18px;
+       }
+    
+     .food-image{
+        /* width: 40%; */
+     }
+     .vegan-content{
+        padding-bottom: 70px;
+    }
+    .demo-food3 img{
+        display: none;
+    }
+    .discount{
+        margin-top: 30px;
+        width: 30%;
+        /* margin-bottom: 80px; */
+     }
+     .playicon{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+     }
+     .playicon img{
+        /* border: 2px solid green; */
+        width: 25%;
+     }
+     .our-food_content p{
+        /* margin: 0 auto; */
+        margin-left: 30px;
+     }
+   
+     .placeholder input[type="email"]{
+        width: 200px;
+        padding: 20px;
+        font-size: large;
+        position: relative;
+        border-style: none;
+        border-radius: 15px ;
+    }
+    
+
+
+
+    .col-md-1{
+        width: 8.33%;
+   }
+
+   .col-md-2{
+    width: 16.66%;
+    }
+    .col-md-3{
+        width: 25%;
+    }
+    .col-md-4{
+        width: 33.33%;
+    }
+    .col-md-5{
+        width: 41.66%;
+    }
+    .col-md-6{
+        width: 50%;
+    }
+    .col-md-7{
+        width: 58.33%;
+    }
+    .col-md-8{
+        width: 66.66%;
+    }
+    .col-md-9{
+        width: 75%;
+    }
+    .col-md-10{
+        width: 83.33%;
+    }
+    .col-md-11{
+        width: 91.66%;
+    }
+    .col-md-12{
+        width: 100%;
+    }
+}
+/* Small Devices */
+@media(max-width:767px){
+   
+ 
+    .other-navs{
+        display: none;
+    }
+    .Hamburger{
+        display:block;
+    }
+    .flavor-img {
+        order: 1;
+    }
+    .flavor{
+        order: 2;
+        margin-top: 10px;
+        /* width: 50%; */
+    }
+    .flavor-container{
+        width: 50%;
+   }
+   .hero_image{
+    margin-bottom: 20px;
+   }
+    .hero_image img{
+        width: 80%;
+    }
+    .flavor-info{
+        margin-bottom: 20px;
+    }
+    .heading{
+        font-weight: 900;
+        font-size: medium;
+        /* border: 2px solid green; */
+        justify-content: center;
+    }
+
+    .paragrapgh{
+        margin: 0 auto;
+    }
+ 
+    .explore-btn{
+        justify-content: center;
+    }
+    .explore-btn button{
+        margin-top: 8px;
+        background-color:  #26643B;
+        color:  #E8E8CC;
+        padding: 5px;
+        border-radius: 9px;
+        width: 120px;
+        font-family: Raleway;
+        font-weight: 300;
+        font-size: medium;
+        border-style: none;
+        /* border: 2px solid red; */
+        flex-wrap: nowrap;
+    }
+   .font{
+    font-size: small;
+   }
+   .time, .address, .call-now{
+    /* border: 2px solid black; */
+    padding: 2px;
+    height: 160px;
+   }
+   .add{
+    justify-content: center;
+   }
+  
+   .bowl h2, .salad-bowl h2{
+    padding-top: 90px;
+    font-size: large;
+    font-weight: 900;
+    margin-top: 40px;
+    font-family: Poppins;
+   }
+   .demo-food3 img{
+    display: none;
+}
+.playicon{
+    width: 100%;
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+ }
+.playicon img{
+    /* border: 2px solid green; */
+    width: 40%;
+ }
+
+ .placeholder input[type="email"]{
+    width: 200px;
+    padding: 20px;
+    font-size: large;
+    position: relative;
+    border-style: none;
+    border-radius: 15px ;
+ }
+ .joint-main{
+    justify-content: space-around;
+ }
+ .facebook img, .instagram img, .twitter img{
+    border: 4px solid #BEE1B8;
+    width: 100%;
+ }
+
+ 
+
+
+
+
+ 
+
+
+
+
+    .col-sm-1{
+        width: 8.33%;
+   }
+   .col-sm-2{
+    width: 16.66%;
+    }
+    .col-sm-3{
+        width: 25%;
+    }
+    .col-sm-4{
+        width: 33.33%;
+    }
+    .col-sm-5{
+        width: 41.66%;
+    }
+    .col-sm-6{
+        width: 50%;
+    }
+    .col-sm-7{
+        width: 58.33%;
+    }
+    .col-sm-8{
+        width: 66.66%;
+    }
+    .col-sm-9{
+        width: 75%;
+    }
+    .col-sm-10{
+        width: 83.33%;
+    }
+    .col-sm-11{
+        width: 91.66%;
+    }
+    .col-sm-12{
+        width: 100%;
+    }
+}
